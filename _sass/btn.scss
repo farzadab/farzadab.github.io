@@ -1,0 +1,46 @@
+$bcolor: #333;
+$wcolor: $white;
+
+.small-margin-p p {
+    margin-bottom: 7px;
+}
+
+.hollowbtn-container {
+    margin-top: 7px;
+    // display: flex;
+    // justify-content: space-between;
+}
+
+.hollowbtn {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+
+    border: 2px;
+    border-color: $bcolor;
+    border-style: solid;
+    background-color: $wcolor;
+    transition: all 0.3s;
+    padding: 0;
+    
+    a {
+        color: $bcolor !important;
+        min-width: 110px;
+        min-height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    &:hover {
+        border-color: $bcolor;
+        color: $wcolor !important;
+        
+        a {
+            background-color: $bcolor;
+            color: $wcolor !important;
+        }
+    }
+}

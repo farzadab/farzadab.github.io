@@ -1,0 +1,25 @@
+.grid {
+	display: grid;
+}
+
+.img-grid {
+	@extend .grid;
+	grid-template-columns: auto 1fr;
+}
+
+.img-grid .img-container {
+	height: 100%;
+	// background-color: yellow;
+	display: flex;
+	align-items: center;
+	padding-right: 30px;
+}
+
+.img-grid img {
+	width: 240px;
+	height: 240px;
+	vertical-align: middle;
+	flex: 1;
+	object-fit: contain;
+}
+

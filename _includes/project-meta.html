@@ -1,0 +1,49 @@
+<div class="img-grid">
+  <div class="img-container" markdown="1">
+    <img src="{{ page.img_url }}"/>
+  </div>
+  <div>
+    <h4>
+        {{ page.title }}
+    </h4>
+    
+    {% if page.categories %}
+      {% capture categories %}
+        {% for category in page.categories %}
+          <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ category | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+      {% endcapture %}
+    {% elsif page.category %}
+      {% capture categories %}
+        <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ page.category | downcase }}">{{ page.category }}</a></span>
+      {% endcapture %}
+    {% endif %}
+    
+    <!-- <small class="small  post-meta">
+      {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date: "%Y" }}</time>
+    </small> -->
+    
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+
+    
+    <div class="small-margin-p">{{ page.excerpt | markdownify | truncatewords: 60 }}</div>
+
+    <div>Tags: {{ categories }}</div>
+
+    <div class="hollowbtn-container">
+      {% if page.github_url %}
+        <button class="hollowbtn">
+          <a href="{{ page.github_url }}">Source</a>
+        </button>
+      {% endif %}
+      {% if page.pdf %}
+        <!-- <a href="{{ page.pdf }}"><i class="mdi mdi-36px mdi-file-pdf-box"></i></a> -->
+        <button class="hollowbtn">
+          <a href="{{ page.pdf }}">PDF</a>
+        </button>
+      {% endif %}
+    </div>
+
+    
+  </div>
+</div>
