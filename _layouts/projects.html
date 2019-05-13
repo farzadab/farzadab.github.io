@@ -6,7 +6,7 @@ layout: default
 
 <main class="main  container">
 
-    <div class="content">
+    <div class="">
 
         <article class="article  article--page  typeset">
 
@@ -39,7 +39,6 @@ layout: default
                 </li>
                 {% endfor %}
             </ul>
-            {% include post-pagination.html %}
         </section>
         {% else %}
         <section class="section  typeset">
@@ -50,8 +49,10 @@ layout: default
                         {% include project-meta.html %}
                     </article>
                 </li>
+                <br />
                 {% endfor %}
             </ul>
+
         </section>
         {% endif %}
 

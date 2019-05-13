@@ -1,0 +1,40 @@
+<div id="app" data-server-rendered="true">
+    <div class="theme-container no-sidebar">
+        <header class="navbar">
+            <!-- {% if site.logo %}{% include site-logo.html %}{% endif %} -->
+
+            <div class="sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"
+                    class="icon">
+                    <path fill="currentColor"
+                        d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z">
+                    </path>
+                </svg>
+            </div>
+            <a href="/" class="home-link router-link-exact-active router-link-active">
+                <span class="site-name">{{ site.title }}</span>
+            </a>
+            {% include nav-header.html %}
+        </header>
+
+        <div class="sidebar">
+            <nav class="nav-links">
+                {% for item in site.navigation_header %}
+                {% if item[1] contains '://' %}
+                {% assign url = item[1] %}
+                {% else %}
+                {% assign url = item[1] | relative_url %}
+                {% endif %}
+                <div class="nav-item">
+                    <a href="{{ url }}"
+                        class="nav-link {% if item[1] == page.url %}router-link-exact-active router-link-active{% endif %}">{{ item[0] }}</a>
+                </div>
+
+                {% endfor %}
+            </nav>
+        </div>
+
+    </div>
+    {% include site-feature.html %}
+</div>
+</div>
