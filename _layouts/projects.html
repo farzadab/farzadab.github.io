@@ -49,7 +49,7 @@ layout: default
                         {% include project-meta.html %}
                     </article>
                 </li>
-                <br />
+                {% if forloop.rindex0 > 0 %}<br />{% endif %}
                 {% endfor %}
             </ul>
 

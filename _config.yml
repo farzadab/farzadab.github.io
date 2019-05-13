@@ -40,7 +40,19 @@ navigation_header:
 
 # Footer nav
 navigation_footer:
-  Back to top: "#top"
+  # Back to top: "#top"
+  Github:
+    icon: github-circle
+    url: "https://github.com/farzadab/"
+  Stack Overflow:
+    icon: stack-overflow
+    url: "https://stackoverflow.com/users/6793148/farzad-abdolhosseini"
+  LinkedIn:
+    icon: linkedin-box
+    url: "https://www.linkedin.com/in/farzadab/"
+  UBC Webpage:
+    icon: school
+    url: "https://www.cs.ubc.ca/~farzadab/page/"
 
 # Collections
 collections:
