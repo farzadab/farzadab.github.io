@@ -9,7 +9,9 @@ feature_image: "/assets/img/scene1.jpg"
 #   _MSc Student at UBC_
 ---
 
-I'm a second-year MSc student in the [department of Computer Science](http://cs.ubc.ca/) at the University of British Columbia studying Reinforcement Learning under supervision of [Prof. Michiel van de Panne](http://cs.ubc.ca/~van/).\\
+## Hi, I'm Farzad!
+
+I am a second-year MSc student in the [department of Computer Science](http://cs.ubc.ca/) at the University of British Columbia studying Reinforcement Learning under supervision of [Prof. Michiel van de Panne](http://cs.ubc.ca/~van/).\\
 I like exploring new stuff and learning everything that comes my way!
 
 <div style="display: flex; justify-content: center">
