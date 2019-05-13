@@ -54,6 +54,13 @@ navigation_footer:
     icon: school
     url: "https://www.cs.ubc.ca/~farzadab/page/"
 
+
+# FavIcons
+favicons:
+  16: "/assets/img/logo/logo-16.png"
+  32: "/assets/img/logo/logo-32.png"
+  64: "/assets/img/logo/logo-64.png"
+
 # Collections
 collections:
   posts:
