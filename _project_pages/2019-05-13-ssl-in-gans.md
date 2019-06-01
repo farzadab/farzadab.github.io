@@ -12,5 +12,4 @@ img_url: "/assets/projects/img/SSL_GAN.png"
 
 ---
 
-A case study on the applicability of solving RL tasks when posed as an inference problem.
-
+A review of semi-supervised learning methods using GANs. A prevalent theme in these methods was simply combining a supervised classification loss with the unsupervised GAN loss in order to make use of the huge set of unlabeled data.

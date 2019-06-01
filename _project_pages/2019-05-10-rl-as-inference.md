@@ -12,5 +12,5 @@ img_url: "/assets/projects/img/pgm2.png"
 
 ---
 
-A case study on the applicability of solving RL tasks when posed as an inference problem.
+A case study on the applicability of solving reinforcement learning (RL) tasks when posed as an inference problem.
 
