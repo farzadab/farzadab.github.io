@@ -86,7 +86,7 @@ body {
   }
   
   .footer {
-    background: $white; //$headingColour;
+    background: $backgroundColour;
     color: $captionColour;
     border-top: 1px;
     border-color: #eaecef;
@@ -95,7 +95,7 @@ body {
     a {
       color: $captionColour;
       &:hover {
-        color: $backgroundColour;
+        color: $headingColour;
       }
     }
     .container {
