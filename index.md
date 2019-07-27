@@ -12,6 +12,9 @@ feature_image: "/assets/img/scene1.jpg"
 I am a second-year MSc student in the [department of Computer Science](http://cs.ubc.ca/) at the University of British Columbia studying Reinforcement Learning under supervision of [Prof. Michiel van de Panne](http://cs.ubc.ca/~van/).\\
 I like exploring new stuff and learning everything that comes my way!
 
+
+**I'll be graduating this October and I'll be on the job market. Here's a copy of my [CV](/assets/CV.pdf).**
+
 <div style="display: flex; justify-content: center">
 {% for item in site.navigation_footer %}
   {% if item[1].url contains '://' %}
