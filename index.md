@@ -13,7 +13,7 @@ I am a second-year MSc student in the [department of Computer Science](http://cs
 I like exploring new stuff and learning everything that comes my way!
 
 
-**I'll be graduating this October and I'll be on the job market. Here's a copy of my [CV](/assets/CV.pdf).**
+**I'll be graduating this October and I'll be on the job market. Here's a copy of my [CV](https://www.cs.ubc.ca/~farzadab/static/CV.pdf).**
 
 <div style="display: flex; justify-content: center">
 {% for item in site.navigation_footer %}
