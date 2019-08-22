@@ -36,6 +36,7 @@ navigation_header:
   Home: /
   # About: /about/
   # Blog: /blog/
+  Publications: /publications/
   Projects: /projects/
 
 # Footer nav
@@ -77,4 +78,10 @@ collections:
     feature_text: ""
     # feature_image: "https://picsum.photos/2560/600?image=923&blur=1"
     # feature_image: "https://picsum.photos/2560/600?image=538"
+    feature_image: "/assets/img/seagull2.jpg"
+  publication_pages:
+    title: Publications
+    output: true
+    description: "My Publications"
+    feature_text: ""
     feature_image: "/assets/img/seagull2.jpg"

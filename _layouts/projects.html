@@ -43,7 +43,7 @@ layout: default
         {% else %}
         <section class="section  typeset">
             <ul class="list  list--posts">
-                {% for page in site.project_pages %}
+                {% for page in site[page.collectionpage] reversed %}
                 <li class="item  item--post">
                     <article class="article  article--post">
                         {% include project-meta.html %}
