@@ -5,10 +5,10 @@ categories:
 - Reinforcement Learning
 - Invariances
 - Animation
-# link: "https://www.nature.com/articles/s41598-019-38798-y"
+pdf: "/assets/projects/pdf/symmetric_rl.pdf"
 img_url: "/assets/projects/img/symmetric_rl.png"
 
 ---
 
 **Farzad Abdolhosseini**, Hung Yu Ling, Zhaoming Xie, Xue Bin Peng, Michiel van de Panne.\\
-Under Review (MIG '19)
+Proc. ACM SIGGRAPH Motion, Interaction, and Games (MIG 2019)
