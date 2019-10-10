@@ -6,6 +6,7 @@ categories:
 - Invariances
 - Animation
 pdf: "/assets/projects/pdf/symmetric_rl.pdf"
+github_url: "https://github.com/UBCMOCCA/SymmetricRL"
 img_url: "/assets/projects/img/symmetric_rl.png"
 
 ---
