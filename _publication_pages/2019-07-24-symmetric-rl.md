@@ -12,4 +12,5 @@ img_url: "/assets/projects/img/symmetric_rl.png"
 ---
 
 **Farzad Abdolhosseini**, Hung Yu Ling, Zhaoming Xie, Xue Bin Peng, Michiel van de Panne.\\
-Proc. ACM SIGGRAPH Motion, Interaction, and Games (MIG 2019)
+Proc. ACM SIGGRAPH Motion, Interaction, and Games (MIG 2019)\\
+Also to appear in the NeurIPS (2019) Deep Reinforcement Learning Workshop.
