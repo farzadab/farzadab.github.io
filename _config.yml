@@ -20,9 +20,9 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
+url: 'https://farzadab.github.io/'
 baseurl: ''
-title: 'Farzad Abdolhosseini'
+title: 'Farzad'
 description: 'Persoanl Webpage'
 permalink: pretty
 logo: "https://picsum.photos/1/1?image=1" #"https://avatars0.githubusercontent.com/u/5062458?s=460&v=4"
@@ -38,6 +38,7 @@ navigation_header:
   # Blog: /blog/
   Publications: /publications/
   Projects: /projects/
+  Resume: /assets/resume.pdf
 
 # Footer nav
 navigation_footer:

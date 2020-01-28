@@ -1,17 +1,19 @@
 ---
-title: Hi, I'm Farzad!
+title: Hi, I'm Farzad,
 layout: page
 # feature_image: "https://picsum.photos/1300/400?image=872&blur=2"
 # feature_image: "/assets/img/seagull.jpg"
-feature_image: "/assets/img/scene1.jpg"
+# feature_image: "/assets/img/scene1.jpg"
 # feature_text: |
 #   ## Farzad Abdolhosseini
 #   _MSc Student at UBC_
 ---
 
-I am a machine learning engineer at [Xnor.ai](https://xnor.ai), where I develop cool stuff!
+I'm a machine learning engineer and I'm on the job market now!\\
+Here's my resume:
+<a href="/assets/resume.pdf" title="Resume"><i class="mdi mdi-36px mdi-file-pdf"></i></a>
 
-Before that I was a MSc student in the [department of Computer Science](http://cs.ubc.ca/) at the University of British Columbia studying Reinforcement Learning under supervision of [Prof. Michiel van de Panne](http://cs.ubc.ca/~van/).\\
+I recently finished my MSc in the [department of Computer Science](http://cs.ubc.ca/) at the University of British Columbia studying Reinforcement Learning under supervision of [Prof. Michiel van de Panne](http://cs.ubc.ca/~van/).\\
 I like exploring new stuff and learning everything that comes my way!
 
 <div style="display: flex; justify-content: center">
