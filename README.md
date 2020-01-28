@@ -1,9 +1,26 @@
-# Starter kit for [Alembic](https://alembic.darn.es/)
+# My Personal Webpage
 
-This is a very simple starting point if you wish to use Alembic [as a Jekyll theme gem](https://alembic.darn.es/#as-a-jekyll-theme) or as a [GitHub Pages remote theme](https://github.com/daviddarnes/alembic-kit/tree/remote-theme) (see `remote-theme` branch).
+## Usage
+### Installing Dependencies
+1. First, you need to install ruby and the ruby bundler (can be different based on the OS):
+```bash
+sudo pacman -S ruby rubygems ruby-bundler
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit)
+## Or if you use the hated Ubuntu ...
+# sudo apt install ruby-bundler
+```
 
-or
+2. Install the dependencies:
+```bash
+bundle install  # might ask for your password
+```
 
-**[Download the GitHub Pages kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
+3. Run the server:
+```bash
+bundle exec jekyll serve
+```
+
+4. You should be able to open the webpage at http://127.0.0.1:4000/.
+
+-------
+Based on the starter kit for [Alembic](https://alembic.darn.es/).
