@@ -14,4 +14,4 @@ img_url: "/assets/projects/img/pg_tutorial.png"
 ---
 
 A visualization as well as a tutorial on reinforcement learning algorithms, starting with the good old gradient descent and ending with the policy gradients algorithms.\\
-The algorithms run in the browser using `Tensorflow.js` and are visualized using pure `D3.js`.
+The algorithms run in the browser using Tensorflow.js and are visualized using pure D3.js.
