@@ -13,4 +13,4 @@ img_url: "/assets/projects/img/HOPPL_compiler.png"
 
 ---
 
-Metropolis within Gibbs and HMC inference engines for a first-order probabilistic programming language (FOPPL) compiler as well as a likelihood weighting interpreter for a higher-order probababilistic programming language (HOPPL).
+Metropolis within Gibbs and HMC inference engines for a first-order probabilistic programming language (FOPPL) compiler as well as a likelihood weighting interpreter for a higher-order probabilistic programming language (HOPPL).
