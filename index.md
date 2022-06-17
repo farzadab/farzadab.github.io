@@ -9,7 +9,7 @@ layout: page
 #   _MSc Student at UBC_
 ---
 
-I'm a machine learning researcher/scientist at Apple working on Computer Vision and Efficient Learning.
+I'm a machine learning engineer working on Computer Vision and Efficient Learning.
 
 I finished my MSc in the [department of Computer Science](http://cs.ubc.ca/) at the University of British Columbia studying Reinforcement Learning under supervision of [Prof. Michiel van de Panne](http://cs.ubc.ca/~van/).\\
 I like exploring new stuff and learning everything that comes my way!
