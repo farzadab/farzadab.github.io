@@ -9,9 +9,9 @@ layout: page
 #   _MSc Student at UBC_
 ---
 
-I'm a founding AI engineer at [Fixie](https://fixie.ai/) working on speech-language models.
+I'm a founding AI engineer at [Elastix AI](https://www.elastix.ai/) working on next-generation inference hardware.
 
-I was previously at Apple in the machine intelligence neural design (MIND) team, working on computer vision and efficient learning and got my MSc at the [University of British Columbia, department of Computer Science](http://cs.ubc.ca/), studying Reinforcement Learning under supervision of [Prof. Michiel van de Panne](http://cs.ubc.ca/~van/).
+Previously I worked on speech-language models at [Fixie](https://fixie.ai/). I was also part of the machine intelligence neural design (MIND) team at Apple, working on computer vision and efficient learning. I got my MSc at the [University of British Columbia, department of Computer Science](http://cs.ubc.ca/), studying Reinforcement Learning under supervision of [Prof. Michiel van de Panne](http://cs.ubc.ca/~van/).
 
 <div style="display: flex; justify-content: center">
 {% for item in site.navigation_footer %}
